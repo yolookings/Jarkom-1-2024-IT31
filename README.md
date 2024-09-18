@@ -135,6 +135,18 @@ Redbaron:fly1ng4c3
 
 itu di stream 142 ada input binary kita decrypt menggunakan XOR dan gunakan string NUN ubah ke binary dulu untuk di jadikan Key
 
+## Stegography
+
+1. frame contains ".png" jumlah 13
+
+2. kemudian reverse.py eksekusi dengan image.open di ganti pathnya jadi nama file
+
+3. kemudian cari 1 1 dan ditemukan ada pesan di ATP, EH, KJK
+
+4. kemudian gabungkan pesannya dengan di balik isinya pahlawan keamanan siber
+
+
+![Uploading image.png…]()
 
 
 
