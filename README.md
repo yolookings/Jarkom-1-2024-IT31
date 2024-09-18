@@ -9,7 +9,7 @@
 
 ## Write Up
 
-## Advance Sanity Check
+# Advance Sanity Check
 
 - tcp contains "username"
 
@@ -55,3 +55,19 @@ Lalu menampilkan yang paling awal dan paling akhir
 
 ￼
 ![alt text](<nc 10.15.42.60 53000.png>)
+
+
+# Illegal Breakthrough
+
+1.	Tcp contains”.php”
+2.	 ![image](https://github.com/user-attachments/assets/eff0b7fd-f6e1-49f1-94f7-334266f78538)
+
+3.	Ip address korban ada di Host : 172.21.88.207
+4.	Port yang digunakan sebagai webserver ada di Host : 1917
+5.	Dimana endpoint ada di paling atas /ww1.php
+6.	Tools apa yang digunakan oleh attacker?
+   ![image](https://github.com/user-attachments/assets/a97f974a-da82-452f-a68d-1c265d3ce091)
+
+Fuzz Faster U Fool v2.1.0-dev disingkat ffuf-v2.1.0-dev
+7.	Apa kredesial yang berhasil digunakan oleh hacker
+Redbaron:fly1ng4c3
