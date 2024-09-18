@@ -30,6 +30,9 @@ lalu terdapat flag berupa :
 
 - tcp > follow > tcp stream,
 - lalu terdapat “jawabannya jawaban”
+
+![alt text](image.png)
+
 - kemudian untuk port 1234 dari bilah kiri bawah
 
 `Benar! Ini flag-mu: JarkomIT{BiAr_aman_Pake_sSh_XkqtsFzqvkQN7WGDVpVdCwQwp3zfWapqYj6r4REavoAUP7YwIAcDEZ}
@@ -56,27 +59,25 @@ Lalu menampilkan yang paling awal dan paling akhir
 ￼
 ![alt text](<nc 10.15.42.60 53000.png>)
 
-
 # Illegal Breakthrough
 
-1.	Tcp contains”.php”
-   
-2.	 ![image](https://github.com/user-attachments/assets/eff0b7fd-f6e1-49f1-94f7-334266f78538)
+1.  Tcp contains”.php”
 
-3.	Ip address korban ada di Host : 172.21.88.207
+2.  ![image](https://github.com/user-attachments/assets/eff0b7fd-f6e1-49f1-94f7-334266f78538)
 
-4.	Port yang digunakan sebagai webserver ada di Host : 1917
+3.  Ip address korban ada di Host : 172.21.88.207
 
-5.	Dimana endpoint ada di paling atas /ww1.php
+4.  Port yang digunakan sebagai webserver ada di Host : 1917
 
-6.	Tools apa yang digunakan oleh attacker?
-   ![image](https://github.com/user-attachments/assets/a97f974a-da82-452f-a68d-1c265d3ce091)
+5.  Dimana endpoint ada di paling atas /ww1.php
+
+6.  Tools apa yang digunakan oleh attacker?
+    ![image](https://github.com/user-attachments/assets/a97f974a-da82-452f-a68d-1c265d3ce091)
 
 Fuzz Faster U Fool v2.1.0-dev disingkat ffuf-v2.1.0-dev
 
-7.	Apa kredesial yang berhasil digunakan oleh hacker
-Redbaron:fly1ng4c3
-
+7. Apa kredesial yang berhasil digunakan oleh hacker
+   Redbaron:fly1ng4c3
 
 ## Packets Barrage
 
@@ -85,7 +86,7 @@ Redbaron:fly1ng4c3
 ![image](https://github.com/user-attachments/assets/63989d0b-0046-4f92-8359-fffc1bdb47c1)
 
 2. Berapa total attempt?
-   
+
    cari menggunakan http.response.code == 200
 
    ![image](https://github.com/user-attachments/assets/686099ce-747c-489c-a582-244315f0b15e)
@@ -96,8 +97,7 @@ Redbaron:fly1ng4c3
 
 4. Apa isi dari file ?
 
-  tinggal buka
-
+tinggal buka
 
 ## InneRCE
 
@@ -107,7 +107,7 @@ Redbaron:fly1ng4c3
 
    UTC beda 7 jam jadi
 
-2. Nyari 1 1 sampe ke stream  55 ada server-app
+2. Nyari 1 1 sampe ke stream 55 ada server-app
 
 3. idzoyyshell.php
 
@@ -132,7 +132,6 @@ Redbaron:fly1ng4c3
 
 4. ![image](https://github.com/user-attachments/assets/c759488b-d887-4010-94ba-ca1bb89a2616)
 
-
 itu di stream 142 ada input binary kita decrypt menggunakan XOR dan gunakan string NUN ubah ke binary dulu untuk di jadikan Key
 
 ## Stegography
@@ -145,15 +144,4 @@ itu di stream 142 ada input binary kita decrypt menggunakan XOR dan gunakan stri
 
 4. kemudian gabungkan pesannya dengan di balik isinya pahlawan keamanan siber
 
-
 ![image](https://github.com/user-attachments/assets/012b257c-670c-45ec-aaf8-f8f16f13bb18)
-
-
-
-
-
-
-
-   
-
-
