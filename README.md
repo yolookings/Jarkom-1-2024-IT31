@@ -118,6 +118,27 @@ Redbaron:fly1ng4c3
 
    di stream 52 copas yang di antara %20()%20 trus decrypt menggunakan base 64 = pls rate soal ini
 
+## 22 Nightmare
+
+1. tcp contains "USER" ada di stream 3
+
+   Sh1k4.jpg
+
+2. File yang dikirim?
+
+   File > Export trus buka gambarnya di dalam ada tulisan NUN
+
+3. Ada di stream 141 noko.py
+
+4. ![image](https://github.com/user-attachments/assets/c759488b-d887-4010-94ba-ca1bb89a2616)
+
+
+itu di stream 142 ada input binary kita decrypt menggunakan XOR dan gunakan string NUN ubah ke binary dulu untuk di jadikan Key
+
+
+
+
+
 
 
    
