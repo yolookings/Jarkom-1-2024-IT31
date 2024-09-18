@@ -76,3 +76,50 @@ Fuzz Faster U Fool v2.1.0-dev disingkat ffuf-v2.1.0-dev
 
 7.	Apa kredesial yang berhasil digunakan oleh hacker
 Redbaron:fly1ng4c3
+
+
+## Packets Barrage
+
+1. IP Address Attacker ada di Source ketika membuka file
+
+![image](https://github.com/user-attachments/assets/63989d0b-0046-4f92-8359-fffc1bdb47c1)
+
+2. Berapa total attempt?
+   
+   cari menggunakan http.response.code == 200
+
+   ![image](https://github.com/user-attachments/assets/686099ce-747c-489c-a582-244315f0b15e)
+
+3. Apa nama file yang didownload oleh hacker?
+
+   File > Export Object > http > Filter R > Save > Extract
+
+4. Apa isi dari file ?
+
+  tinggal buka
+
+
+## InneRCE
+
+1. frame contains "POST"
+
+   ![image](https://github.com/user-attachments/assets/f6ff2516-f325-4eb9-9c61-569c805f270e)
+
+   UTC beda 7 jam jadi
+
+2. Nyari 1 1 sampe ke stream  55 ada server-app
+
+3. idzoyyshell.php
+
+4. ![image](https://github.com/user-attachments/assets/0572b4e5-ac06-4936-9d08-08ecce894edf)
+   di stream 49 ada bakuls dia menggunakan whoami
+
+5. ![image](https://github.com/user-attachments/assets/4f0c7b7a-c117-4e23-9aa6-212a3f562fe0)
+
+   di stream 52 copas yang di antara %20()%20 trus decrypt menggunakan base 64 = pls rate soal ini
+
+
+
+   
+
+
