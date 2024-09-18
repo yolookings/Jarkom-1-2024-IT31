@@ -28,9 +28,9 @@ lalu terdapat flag berupa :
 
 ## EZ
 
-tcp > follow > tcp stream,
-lalu terdapat “jawabannya jawaban”
-kemudian untuk port 1234 dari bilah kiri bawah
+- tcp > follow > tcp stream,
+- lalu terdapat “jawabannya jawaban”
+- kemudian untuk port 1234 dari bilah kiri bawah
 
 `Benar! Ini flag-mu: JarkomIT{BiAr_aman_Pake_sSh_XkqtsFzqvkQN7WGDVpVdCwQwp3zfWapqYj6r4REavoAUP7YwIAcDEZ}
 `
