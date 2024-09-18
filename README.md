@@ -146,7 +146,8 @@ itu di stream 142 ada input binary kita decrypt menggunakan XOR dan gunakan stri
 4. kemudian gabungkan pesannya dengan di balik isinya pahlawan keamanan siber
 
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/012b257c-670c-45ec-aaf8-f8f16f13bb18)
+
 
 
 
