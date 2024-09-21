@@ -9,6 +9,23 @@
 
 ## Write Up
 
+- [Advance Sanity Check](#advance-sanity-check)
+- [Illegal Breakthrough](#illegal-breakthrough)
+- [Packets Barrage](#packets-barrage)
+- [FTP Login](#ftp-login)
+- [Pegawai Negeri Sebelah](#pegawai-negeri-sebelah)
+- [EZ](#ez)
+- [Stegography](#stegography)
+- [innerRCE](#innerrce)
+- [Malicious Code](#malicious-code)
+- [Rizzset](#rizzset)
+- [Baby Hengker](#baby-hengker)
+- [Adult Hengker](#adult-hengker)
+- [Gajah Terbang (Server Recon)](#gajah-terbang-server-recon)
+- [Gajah Terbang (Attacker Recon)](#gajah-terbang-attacker-recon)
+- [Surprise](#surprise)
+- [Corporate Breach](#corporate-breach)
+
 # Advance Sanity Check
 
 - tcp contains "username"
@@ -19,7 +36,7 @@
 
 - http contains "Clue3.txt"
 
-![alt text](<POST upload.php HTTP1.1.png>)
+![alt text](img/asc.png)
 
 ￼`cGVud29yZA==` Kemudian lanjut decode kata tersebut pada platform decode sehingga menghasilkan string = penword
 
@@ -31,7 +48,7 @@ lalu terdapat flag berupa :
 - tcp > follow > tcp stream,
 - lalu terdapat “jawabannya jawaban”
 
-![alt text](image.png)
+![alt text](img/ez.png)
 
 - kemudian untuk port 1234 dari bilah kiri bawah
 
@@ -44,7 +61,7 @@ Mencari login successful
 
 Lalu terdapat username dan passwordnya
 
-￼![alt text](<Apa username yang berhasil digunakan untuk FTP login.png>)
+￼![alt text](img/ftplogin.png)
 
 ## Pegawai Negeri Sebelah
 
@@ -57,7 +74,7 @@ Lalu menampilkan yang paling awal dan paling akhir
 `Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_y4TlFN0REl3joQLdlDkYMLBLKL3GcDd6mGXEFwzbcWqTeBfCO9ppM4h}`
 
 ￼
-![alt text](<nc 10.15.42.60 53000.png>)
+![alt text](img/pns.png)
 
 # Illegal Breakthrough
 
@@ -99,7 +116,7 @@ Fuzz Faster U Fool v2.1.0-dev disingkat ffuf-v2.1.0-dev
 
 tinggal buka
 
-## InneRCE
+## InnerRCE
 
 1. frame contains "POST"
 
