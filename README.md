@@ -10,21 +10,13 @@
 ## Write Up
 
 - [Advance Sanity Check](#advance-sanity-check)
-- [Illegal Breakthrough](#illegal-breakthrough)
-- [Packets Barrage](#packets-barrage)
+- [EZ](#ez)
 - [FTP Login](#ftp-login)
 - [Pegawai Negeri Sebelah](#pegawai-negeri-sebelah)
-- [EZ](#ez)
-- [Stegography](#stegography)
+- [Illegal Breakthrough](#illegal-breakthrough)
+- [Packets Barrage](#packets-barrage)
 - [innerRCE](#innerrce)
-- [Malicious Code](#malicious-code)
-- [Rizzset](#rizzset)
-- [Baby Hengker](#baby-hengker)
-- [Adult Hengker](#adult-hengker)
-- [Gajah Terbang (Server Recon)](#gajah-terbang-server-recon)
-- [Gajah Terbang (Attacker Recon)](#gajah-terbang-attacker-recon)
-- [Surprise](#surprise)
-- [Corporate Breach](#corporate-breach)
+- [Stegography](#stegography)
 
 # Advance Sanity Check
 
