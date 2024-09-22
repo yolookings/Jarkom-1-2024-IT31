@@ -17,6 +17,14 @@
 - [Packets Barrage](#packets-barrage)
 - [innerRCE](#innerrce)
 - [Stegography](#stegography)
+- [Rizzset](#rizzset)
+- [Gajah Terbang (Server Recon)](#gajah-terbang-server-recon)
+- [Gajah Terbang (Attacker Recon)](#gajah-terbang-attacker-recon)
+- [Baby Hengker](#baby-hengker)
+- [Adult Hengker](#adult-hengker)
+- [Surprise](#surprise)
+- [Malicious Code](#malicious-code)
+- [Corporate Breach](#corporate-breach)
 
 # Advance Sanity Check
 
@@ -154,3 +162,222 @@ itu di stream 142 ada input binary kita decrypt menggunakan XOR dan gunakan stri
 4. kemudian gabungkan pesannya dengan di balik isinya pahlawan keamanan siber
 
 ![image](https://github.com/user-attachments/assets/012b257c-670c-45ec-aaf8-f8f16f13bb18)
+
+## Rizzset
+
+![alt text](img/rizzset.png)
+
+Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk menjawab soal ini
+
+pertanyaan :
+
+- domain memakai ww.its.ac.id
+- ip dari domain adalah 103.94.189.5
+- Jarm Fingerprint yang dihasilkan yakni,
+
+Tuliskan JARN Fingerprint yang dihasilkan dari domain tersebut
+
+Format: string
+
+ex. abcdef0123456789abcdef@123456789abcdef@123456789abcdef@1234567
+
+Jawaban salah
+
+Format: string
+
+Tuliskan JARM Fingerprint yang dihasilkan dari domain tersebut
+2626166222222262ad74aaecca9f9c4a3363063df0o626241e (didapat dari program jar pada domain))
+
+`Benar! Ini flag-pu: JarkomIT(Dn5 CarR34t1@n_xlc1ts1C8a5YVWcwAjPHETshQr1zZlyby 9Qn3uUcxIfiSAyn FrqJ1T5)`
+
+## Gajah Terbang (Server Recon)
+
+![alt text](/img/gajahdefend.png)
+
+- Apa DBMS yang digunakan pada server tersebut?
+
+Format: string ex. MonggoDB
+
+> PostgreSQL
+
+- Di port berapa DBMS server tersebut berjalan?
+
+Format: xxxx ex. 443
+
+>
+
+- Di port berapa DBMS server tersebut berjalan?
+
+Format: xxxx ex. 443
+
+> 6969
+
+- OS apa yang digunakan untuk server tersebut?
+
+Format: string ex. linux
+
+> Debian
+
+- Apa credentials username DBMS valid yang digunakan?
+
+Format: string
+
+> s1gm4
+
+- apa nama database yang digunakan?
+
+Format: string
+
+> sigmaskibidigyatrizzzz
+
+- Ada berapa banyak users dalam database tersebut?
+
+Format: number
+
+> 4
+
+- Apa email yang digunakan oleh admin?
+
+Format: email@gmail.com
+
+> jojohermawan@gmail.com
+
+- Apa password yang digunakan oleh admin?
+
+Format: string
+
+> admin1234
+
+`Benar! Ini flag-mu: JarkomIT{Gy4tT_MSg_4U_TuX7rcPvGcP80cGl5FjvzsM9d5k1XDoBy@ABEG9xiz4vjrmZsGKSvBiD1}`
+
+## Gajah Terbang (Attacker Recon)
+
+![alt text](/img/gajahattack.png)
+
+Akun apa yang dimiliki oleh penyerang dalam database tersebut, berikan emailnya!
+Format: user@gmail.com
+
+> kuntoajiisrillll@gmail.com
+
+- Apa password yang digunakan oleh penyerang?
+  > Format: string
+  > kissme
+- Pada tanggal berapa akun penyerang diban?
+  > Format: YYYY-MM-DD
+  > 2024-06-09
+- Table apa saja yang dimodifikasi oleh penyerang?
+
+  > users dan banned_users
+
+- Barang apa saja yang telah dibeli oleh penyerang?
+  Format: string dan string
+
+  > rokok dan es krim
+
+- Berapa total transaksi dari barang yang dibeli oleh penyerang?
+  Format: number
+  > 24500
+
+`Benar! Ini flag-mu: JarkomIT{G4jaH_K0k_t3RbaNG_G4LXnZOdIQjTT1Ip8kUBBFHp9YntftOxvKqxwazS31R2fJw09blNjKt5}`
+
+## Baby Hengker
+
+![alt text](/img/baby.png)
+
+- Kapan hacker tersebut mengakses komputer yang ada di lab?
+  Format: YYYY-MM-DD HH:MM
+  ex. 1945-08-17 21:21
+  ⁠2024-09-16 13:43
+- Apa yang dituliskan oleh hacker tersebut?
+  Format: string ex. kata kata
+  ⁠ini passwordnya apa ya?
+
+`Benar! Ini flag-mu: JarkomIT{4ku_p9n_j4d1_h3n9k3r_p3aumcGdVWFkF7Lh4fyAf91g4Am1t7CBCwBze05T2XFatRdf2WGdiHCK}`
+
+## Adult Hengker
+
+![alt text](/img/adult.png)
+
+- Apakah device yang digunakan oleh seorang mahasiswa tersebut?
+
+Format: string
+
+> Mouse
+
+- Apakah device yang digunakan oleh seorang mahasiswa tersebut?
+
+Format: STRING
+
+> HALO MAS KEVIN SALKEN
+
+`Benar! Ini flag-mu: JarkomIT{d0n7_wr173_r4nd0m1y_Obwq4F67R1XD8jijYwGo8V6GDm45iyk7dr8DdosTYaSvOs5mHJHjrK3v1n}`
+
+## Surprise
+
+![alt text](/img/surprise.png)
+
+- Apa service yang digunakan pada FTP server?
+  Format: service ver
+  ex. proFTPd 1.1.0
+  ⁠vsFTPd 3.0.3
+
+- Apa nama file yang dikirim oleh attacker?
+  Format: filename.extension
+  ⁠Jawaban salah
+
+- Apa nama file yang dikirim oleh attacker?
+  Format: filename.extension
+  ⁠g0tcha.cpp
+
+- Apa pesan rahasia yang ditinggalkan oleh attacker?
+  Format: string ex. h4lo wor1d
+  ⁠g0tchu n0w littl3 m0us3
+  Jawaban salah
+
+- Apa pesan rahasia yang ditinggalkan oleh attacker?
+  Format: string ex. h4lo wor1d
+  ⁠g0tchu n0w l1ttl3 m0us3
+
+`Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_UugLdNZzQaEsZfH2pcnxG9cegG0jkSgJlXYRY9LTFnbaC0gSgofhTCHU}`
+
+## Malicious Code
+
+![alt text](/img/malicious.png)
+
+- Berapa total attempt attacker melakukan dir listing?
+
+  ⁠52
+
+- Apa endpoint yang berhasil attacker dapatkan untuk login page?
+
+  ⁠/index.php
+
+- Pada attempt ke berapa attacker menemukan email dan password yang benar?
+
+  ⁠153
+
+- Apa jawaban dari pertanyaan sang attacker?
+
+  ⁠merah
+
+`Benar! Ini flag-mu: JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_rsq8pIMuleESbWferuIopa40JC0qsdyHww8yvdltvBolAmFWWESSL0R}`
+
+## Corporate Breach
+
+![alt text](/img/corporate.png)
+
+Corporate Breach
+
+- Siapa nama attacker?
+
+  ⁠Nakhimov
+
+- Apa email yang digunakan untuk login?
+  Format: email@gmail.com
+  ⁠jarkomsupport@gmail.com
+
+- Apa password yang digunakan untuk login?
+
+  ⁠j4rk0mg4c0rbg
+
+`Benar! Ini flag-mu: JarkomIT{supp0rt_k0k_l3m4h_bg_ansey5ioRbxqubhfVYjSV7jvqG6H7X2OEQDFhwuGP7rH0qyJxBqVG6}`
